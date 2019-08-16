@@ -124,6 +124,7 @@ public class TetheringConfiguration {
      */
     public static final String TETHER_FORCE_USB_FUNCTIONS =
             "tether_force_usb_functions";
+
     /**
      * Default value that used to periodic polls tether offload stats from tethering offload HAL
      * to make the data warnings work.
