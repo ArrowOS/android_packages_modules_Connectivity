@@ -124,6 +124,13 @@ public class TetheringConfiguration {
      */
     public static final String TETHER_FORCE_USB_FUNCTIONS =
             "tether_force_usb_functions";
+
+    /**
+     * Whether tethering is allowed to use VPN upstreams
+     */
+    public static final String TETHERING_ALLOW_VPN_UPSTREAMS =
+            "tethering_allow_vpn_upstreams";
+
     /**
      * Default value that used to periodic polls tether offload stats from tethering offload HAL
      * to make the data warnings work.
